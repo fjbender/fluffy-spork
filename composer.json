@@ -1,0 +1,16 @@
+{
+    "name": "fjbender/fluffy-spork",
+    "authors": [
+        {
+            "name": "Florian Bender",
+            "email": "me@fbender.de"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.22",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "scripts": {
+        "test": "return 1"
+    }
+}

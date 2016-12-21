@@ -24,6 +24,7 @@ class TestPlugin
     public function doSomething(ServerRequest $someParameter)
     {
         $this->logger->log('something', 'something else');
+	// let's just return some stuff
         return $someParameter->getHeader('X-Forwarded-For');
     }
 }
